@@ -5,9 +5,12 @@
 .read 01_create_tables_dw.sql
 
 
---STEP 2: DW- Load data from CSV files into tables
+--Step 2: DW- Load data from CSV files into tables
 .read 02_load_schema_dw.sql
 
 
--- Step 3: Mart- Create Flat Mart Table
+--Step 3: Mart- Create Flat Mart Table 
 .read 03_create_flat_mart.sql
+
+--Step 4: Mart- Create skills demand mart
+.read 04_create_skills_mart.sql
