@@ -1,0 +1,4 @@
+
+# Bancos de dados locais DuckDB
+*.duckdb
+*.duckdb.wal
